@@ -49,11 +49,11 @@ public class Test1Activity extends AppCompatActivity {
         ARouter.getInstance().inject(this);
 
 //         No more getter ...
-         name = getIntent().getStringExtra("name");
-         age = getIntent().getIntExtra("age", 0);
-         girl = getIntent().getBooleanExtra("girl", false);
-         high = getIntent().getLongExtra("high", 0);
-         url = getIntent().getStringExtra("url");
+//         name = getIntent().getStringExtra("name");
+//         age = getIntent().getIntExtra("age", 0);
+//         girl = getIntent().getBooleanExtra("girl", false);
+//         high = getIntent().getLongExtra("high", 0);
+//         url = getIntent().getStringExtra("url");
 
         String params = String.format(
                 "name=%s,\n age=%s,\n girl=%s,\n high=%s,\n url=%s,\n pac=%s,\n obj=%s",
